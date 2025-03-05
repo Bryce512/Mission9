@@ -13,17 +13,10 @@ function SchoolCard({  // Receives SchoolData from School list
   city,
   state,
 } : {
-    tid: number;
-    cid: number;
-    did: number;
     school: string;
     name: string;
-    abbrev: string;
-    pop: number;
     city: string;
     state: string;
-    latitude: number;
-    longitude: number;
   }) {
   return (
     <>
@@ -51,7 +44,6 @@ function SchoolList() { // Creates a list of all School data
           ))}
       </tbody>   
     </table>
-
   </>
   )
   
